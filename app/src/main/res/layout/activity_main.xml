@@ -9,8 +9,15 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.gowhich.androidedittext.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <EditText
+        android:id="@+id/edittext"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:paddingTop="10dp"></EditText>
+
+    <Button
+        android:id="@+id/button"
+        android:text="添加QQ表情"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:layout_below="@+id/edittext" />
 </RelativeLayout>
